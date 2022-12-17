@@ -1,0 +1,752 @@
+@media (max-width: 1300px) {
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* footer */
+  .form-footer .footer-input {
+    background: none;
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #828282;
+  }
+  .footer-btn {
+    width: 250px;
+  }
+  .footer-btn:hover {
+    width: 250px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 1200px;
+    height: 400px;
+  }
+  /* <!-- peculiarities --> */
+
+  .peculiarities-block {
+    width: 220px;
+  }
+  /* services  */
+  .services-img {
+    width: 300px;
+  }
+  /* team */
+  .team-block {
+    width: 230px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-block .team-block-content {
+    padding: 5px 32px;
+  }
+  .team-block .img-team {
+    width: 100%;
+    height: 230px;
+  }
+  /* client */
+  .client-container {
+    display: flex;
+    justify-content: center;
+  }
+  .client-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  /* portfolio */
+
+  .portfolio-block {
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-block:hover::before {
+    content: "Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.";
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 262px;
+    height: 220px;
+    padding: 10px 20px;
+    background: rgba(33, 150, 243, 0.9);
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 1000px;
+    height: 370px;
+  }
+  .title-home {
+    font-size: 38px;
+  }
+  /* <!-- peculiarities --> */
+
+  .peculiarities-block {
+    width: 200px;
+  }
+  /* services  */
+  .services-img {
+    width: 270px;
+  }
+  /* team */
+  .team-block {
+    width: 200px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-block .img-team {
+    width: 100%;
+    height: 190px;
+  }
+  .team-block-content {
+    margin-top: -10px;
+  }
+  .icon-elips {
+    width: 40px;
+    height: 34px;
+  }
+  .icon-elips:hover {
+    width: 40px;
+    height: 34px;
+  }
+  .team-block .team-block-content {
+    padding: 40px 22px;
+  }
+  .icon-elips {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .icon-elips:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2196f3;
+    transition: 0.3s;
+  }
+
+  /* footer */
+  .form-footer .footer-input {
+    background: none;
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #828282;
+  }
+  .footer-btn {
+    padding: 0;
+    width: 280px;
+  }
+  .footer-btn:hover {
+    padding: 0;
+    width: 280px;
+  }
+  .footer-form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* portfolio */
+
+  .portfolio-block {
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    width: 270px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-block:hover::before {
+    content: "Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.";
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 232px;
+    height: 200px;
+    padding: 10px 20px;
+    background: rgba(33, 150, 243, 0.9);
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 850px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* portfolio */
+
+  .portfolio-block {
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    width: 230px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-block:hover::before {
+    content: "Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.";
+    position: absolute;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 192px;
+    height: 190px;
+    padding: 10px 20px;
+    background: rgba(33, 150, 243, 0.9);
+  }
+  .portfolio-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-link {
+    margin-right: 30px;
+  }
+
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 900px;
+    height: 335px;
+  }
+  .title-home {
+    font-size: 35px;
+  }
+  /* <!-- peculiarities --> */
+
+  .peculiarities-block {
+    width: 170px;
+  }
+  /* services  */
+
+  .services-img {
+    width: 230px;
+  }
+
+  /* team */
+  .team-block {
+    width: 180px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-block .img-team {
+    width: 100%;
+    height: 170px;
+  }
+  .team-block-content {
+    margin-top: -10px;
+  }
+  .icon-elips {
+    width: 40px;
+    height: 34px;
+  }
+  .icon-elips:hover {
+    width: 40px;
+    height: 34px;
+  }
+  .team-block .team-block-content {
+    padding: 40px 22px;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+  /* header */
+  .header-contact {
+    display: none;
+  }
+  .nav-link {
+    margin-right: 30px;
+    display: none;
+  }
+
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 900px;
+    height: 335px;
+  }
+  .title-home {
+    font-size: 35px;
+  }
+  /* <!-- peculiarities --> */
+
+  .peculiarities-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .peculiarities-block {
+    width: 300px;
+  }
+  /* services  */
+  .services-container {
+    display: flex;
+    justify-content: center;
+  }
+  .services-wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-img {
+    width: 370px;
+  }
+
+  /* team */
+  .team-container {
+    display: flex;
+    justify-content: center;
+  }
+  .team-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .team-block {
+    width: 270px;
+    height: 428px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-block .img-team {
+    width: 100%;
+    height: 260px;
+  }
+  .team-block .team-block-content {
+    padding: 30px 32px;
+  }
+  /* footer */
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .form-footer .footer-input {
+    background: none;
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #828282;
+  }
+  .footer-btn {
+    padding: 0;
+    width: 280px;
+  }
+  .footer-btn:hover {
+    padding: 0;
+    width: 280px;
+  }
+  .footer-form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* portfolio */
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-blocks {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .portfolio-block {
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-block:hover::before {
+    content: "Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.";
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 262px;
+    height: 180px;
+    padding: 20px 20px;
+    background: rgba(33, 150, 243, 0.9);
+  }
+  .portfolio-block-content {
+    padding: 20px 25px;
+  }
+  .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 700px;
+    height: 250px;
+  }
+  .title-home {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  /* <!-- peculiarities --> */
+  .peculiarities-container {
+    display: flex;
+    justify-content: center;
+  }
+  .peculiarities-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .peculiarities-block {
+    width: 350px;
+  }
+  .peculiarities-title {
+    text-align: center;
+  }
+  /* portfolio */
+  .portfolio-blocks-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-nav-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 20px;
+    max-width: 100px;
+    background-color: #2196f3;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  .portfolio-link {
+    color: #ffffff;
+  }
+
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-blocks {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .portfolio-block {
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    width: 350px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-block:hover::before {
+    content: "";
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 312px;
+    height: 180px;
+    padding: 20px 20px;
+    background: rgba(33, 149, 243, 0);
+  }
+  .portfolio-block-content {
+    padding: 20px 25px;
+  }
+  .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+}
+
+@media (max-width: 600px) {
+  /* modal */
+  .modal-conteiner {
+    padding: 20px;
+    width: 300px;
+    margin-right: 30px;
+    margin-top: 50px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  /* modal */
+
+  .container {
+    width: 550px;
+    margin: 0 auto;
+  }
+  /* peculiarities */
+  .peculiarities-block {
+    width: 350px;
+  }
+  .peculiarities-title {
+    text-align: center;
+  }
+
+  /* team */
+  .team-container {
+    display: flex;
+    justify-content: center;
+  }
+  .team-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .team-block {
+    width: 270px;
+    height: 428px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-block .img-team {
+    width: 100%;
+    height: 260px;
+  }
+  .team-block .team-block-content {
+    padding: 30px 32px;
+  }
+
+  /* client */
+  .client-container {
+    display: flex;
+    justify-content: center;
+  }
+  .client-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  /* portfolio */
+  .portfolio-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .portfolio-nav-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 20px;
+    max-width: 100px;
+    background-color: #2196f3;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  .portfolio-link {
+    color: #ffffff;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  /* general */
+
+  .title {
+    font-size: 28px;
+  }
+  /* general */
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+  /* home */
+  .home {
+    background: url(./img/mainfon.png);
+    background-size: 500px;
+    height: 180px;
+  }
+  .title-home {
+    font-size: 20px;
+  }
+  .home-btn {
+    margin-top: 30px;
+    width: 150px;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  /* services  */
+  .services-container {
+    display: flex;
+    justify-content: center;
+  }
+  .services-wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-img {
+    width: 300px;
+  }
+
+  /* client */
+  .client-container {
+    display: flex;
+    justify-content: center;
+  }
+  .client-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}

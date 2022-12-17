@@ -1,0 +1,91 @@
+/* portfolio */
+.portfolio {
+  margin-bottom: 100px;
+}
+.portfolio-nav {
+  margin-top: 100px;
+  display: flex;
+}
+.portfolio-nav-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 20px;
+  max-width: 100px;
+
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.portfolio-link {
+  color: black;
+}
+
+.portfolio-nav-block:hover {
+  background-color: #2196f3;
+  transition: 0.3s;
+}
+.portfolio-nav-block:hover .portfolio-link {
+  color: #ffffff;
+  transition: 0.3s;
+}
+/* blocks */
+.portfolio-blocks {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.portfolio-block .portfolio-img {
+  width: 100%;
+}
+.p-hover-info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.portfolio-block {
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+  width: 350px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-block:hover::before {
+  content: "Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.";
+  position: absolute;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  width: 312px;
+  height: 180px;
+  padding: 60px 20px;
+  background: rgba(33, 150, 243, 0.9);
+}
+.portfolio-block-content {
+  padding: 20px 25px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.p-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
