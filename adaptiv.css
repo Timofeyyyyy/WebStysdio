@@ -5,6 +5,9 @@
   }
 
   /* footer */
+  .footer {
+    width: 100%;
+  }
   .form-footer .footer-input {
     background: none;
     width: 280px;
@@ -37,6 +40,7 @@
   /* home */
   .home {
     background: url(./img/mainfon.png);
+    width: 100%;
     background-size: 1200px;
     height: 400px;
   }
@@ -605,6 +609,10 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
   /* modal */
   .modal-conteiner {
     padding: 20px;
@@ -618,10 +626,6 @@
   }
   /* modal */
 
-  .container {
-    width: 550px;
-    margin: 0 auto;
-  }
   /* peculiarities */
   .peculiarities-block {
     width: 350px;
@@ -696,7 +700,7 @@
   }
   /* general */
   .container {
-    width: 450px;
+    width: 380px;
     margin: 0 auto;
   }
   /* home */
@@ -704,6 +708,8 @@
     background: url(./img/mainfon.png);
     background-size: 500px;
     height: 180px;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .title-home {
     font-size: 20px;
@@ -746,7 +752,7 @@
 
 @media (max-width: 400px) {
   .container {
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
   }
 }
